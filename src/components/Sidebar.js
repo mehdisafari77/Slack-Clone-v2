@@ -11,6 +11,8 @@ import PeopleAltIcon from '@mui/icons-material/PeopleAlt';
 import AppsIcon from '@mui/icons-material/Apps';
 import FileCopyIcon from '@mui/icons-material/FileCopy';
 import ExpandLessIcon from '@mui/icons-material/ExpandLess';
+import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
+import AddIcon from '@mui/icons-material/Add';
 
 function Sidebar() {
     return (
@@ -34,6 +36,10 @@ function Sidebar() {
             <SidebarOption Icon={AppsIcon} title='Apps' />
             <SidebarOption Icon={FileCopyIcon} title='File browser' />
             <SidebarOption Icon={ExpandLessIcon} title='Show less' />
+            <hr />
+            <SidebarOption Icon={ExpandMoreIcon} title='Channels' />
+            <hr />
+            <SidebarOption Icon={AddIcon}  addChanelOption title='Add Channels' />
 
         </SidebarContainer>
     )
@@ -48,6 +54,12 @@ const SidebarContainer = styled.div`
     flex: 0.3;
     margin-top: 60px;
     max-width: 260px;
+
+    > hr {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #49274b
+    }
 `;
 
 const SidebarHeader = styled.div`
