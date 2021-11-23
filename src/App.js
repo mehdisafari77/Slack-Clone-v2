@@ -20,7 +20,7 @@ function App() {
           <Sidebar />
           <Routes>
               <Route path='/' 
-                //  element={<Chat/>}
+                 element={<Chat/>}
               />              
           </Routes>
         </AppBody>
