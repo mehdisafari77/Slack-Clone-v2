@@ -82,7 +82,7 @@ const HeaderRight = styled.div`
 
     > .MuiSvgIcon-root {
         margin-left: auto;
-        margin-right: 20;
+        margin-right: 20px;
     }
 `;
 
