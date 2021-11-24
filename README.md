@@ -1,6 +1,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
 
 ## Gif of Website
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/75599021/143158849-209da860-1783-47ce-8f44-471e6fcd63dc.gif)
 
 ## Description
 This is a slack clone chatting app with channel creation features, google authentication, redux, and real time messaging with firebase.
