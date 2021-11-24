@@ -65,9 +65,9 @@ const HeaderLeft = styled.div`
         margin-left: 10px;
         font-size: 15px;
         padding: 5px;
-        border: 1px solid gray;
+        border: 1px solid white;
         border-radius: 15px;
-        background-color: gray;
+        background-color: orange;
 
         :hover {
             opacity: 0.8;
