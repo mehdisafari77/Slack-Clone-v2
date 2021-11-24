@@ -26,7 +26,9 @@ function Chat() {
     );
   
     useEffect(() => {
-      chatRef?.current?.scrollIntoView();
+      chatRef?.current?.scrollIntoView({
+          behavior: 'smooth'
+      });
     }, [roomId, roomLoading]);
   
     return (

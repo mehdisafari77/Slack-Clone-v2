@@ -22,7 +22,7 @@ function ChatInput({ channelName, channelId, chatRef }) {
         message: input,
         timestamp: firebase.firestore.FieldValue.serverTimestamp(),
         user: 'Mehdi',
-        userImage: '',
+        userImage: 'https://pbs.twimg.com/profile_images/1339192504382590976/2WxMn8cm_400x400.jpg',
       });
   
       chatRef.current.scrollIntoView({
