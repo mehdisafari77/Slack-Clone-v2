@@ -1,4 +1,7 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
+# Slack Clone App
+
+## Live Link
+https://slack-clone-v2-4e0e6.web.app
 
 ## Gif of Website
 ![ezgif com-gif-maker](https://user-images.githubusercontent.com/75599021/143158849-209da860-1783-47ce-8f44-471e6fcd63dc.gif)
