@@ -1,5 +1,10 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
 
+## Gif of Website
+
+## Description
+This is a slack clone chatting app with channel creation features, google authentication, redux, and real time messaging with firebase.
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -42,3 +47,11 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+## Author
+
+* **Mehdi Safari**
+- [Link to Github](https://github.com/mehdisafari77)
+- [Link to LinkedIn](https://www.linkedin.com/in/mehdi-safari-992799142/)
+
+
