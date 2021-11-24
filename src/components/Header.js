@@ -15,10 +15,13 @@ function Header() {
 
             <HeaderLeft>
                 <HeaderAvatar
-                   onClick={() => auth.signOut()}
                    alt={user?.displayName}
                    src={user?.photoURL}
                 />
+                <p
+                    onClick={() => auth.signOut()}
+                >Logout
+                </p>
                 <AccessTimeIcon />
             </HeaderLeft>
 
@@ -56,6 +59,19 @@ const HeaderLeft = styled.div`
     > .MuiSvgIcon-root {
         margin-left: auto;
         margin-right: 30px;
+    }
+
+    > p {
+        margin-left: 10px;
+        font-size: 15px;
+        padding: 5px;
+        border: 1px solid gray;
+        border-radius: 15px;
+        background-color: gray;
+
+        :hover {
+            opacity: 0.8;
+        }
     }
 `;
 
